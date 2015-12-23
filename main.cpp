@@ -1,9 +1,7 @@
 #include <iostream>
-#include "SaveFile.h"
-#include "WriteFile.h"
+#include "FileCopier.h"
+using namespace std;
 
 int main(){
-   SaveFile f1;
-   WriteFile f2(f1);
-   return 0;
+   FileCopier f;
 }
